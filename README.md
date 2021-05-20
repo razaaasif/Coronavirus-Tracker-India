@@ -1,9 +1,5 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/razaaasif/Coronavirus-Tracker-India/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
+## Welcome to Coronavirus Tracker Web-Application Repository
+![image](https://user-images.githubusercontent.com/50637795/119052729-a829ef00-b9e2-11eb-93ef-dc1e36e57c4f.png)
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
