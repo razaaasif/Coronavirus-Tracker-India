@@ -3,12 +3,35 @@
 <html xmlns:th="http://www.thymeleaf.org">
 
 <head>
-    <title>Covid-19 News</title>
+    <title>Covid-19 Report</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="stylesheet" type="text/css" media="all"
           href="../../css/gtvg.css" th:href="@{/css/gtvg.css}" />
 </head>
-heyy
+<h1>Coronavirus case report of India</h1>
+
+<table>
+    <tr>
+        <th>State</th>
+        <th>Confirmed</th>
+        <th>Recovered</th>
+        <th>Deaths</th>
+        <th>Active</th>
+        <th>State_code</th>
+    </tr>
+    <tr th:each="stats : ${allStats}">
+        <td th:text="${stats.State}"/>
+        <td th:text="${stats.Confirmed}"/>
+        <td th:text="${stats.Recovered}"/>
+        <td th:text="${stats.Deaths}"/>
+        <td th:text="${stats.Active}"/>
+        <td th:text="${stats.State_code}"/>
+    </tr>
+</table>
+
+<p>
+    <a href="../home.html" th:href="@{/}">Return to home</a>
+</p>
 <body>
 </body>
 </html>

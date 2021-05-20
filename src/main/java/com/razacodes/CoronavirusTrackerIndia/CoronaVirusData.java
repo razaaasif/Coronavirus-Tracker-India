@@ -4,14 +4,13 @@ import com.razacodes.CoronavirusTrackerIndia.Service.CoronavirusDataService;
 import com.razacodes.CoronavirusTrackerIndia.models.LocationStats;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
 import java.io.IOException;
 import java.io.StringReader;
-import java.net.MalformedURLException;
 import java.net.URI;
-import java.net.URL;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
@@ -24,6 +23,7 @@ public class CoronaVirusData implements CoronavirusDataService {
     private List<LocationStats> allStats = new ArrayList<>();
     @Override
     @PostConstruct
+    @Scheduled(cron = "* * 1 * * *" )
     public void fetchData() throws IOException, InterruptedException {
         List<LocationStats> newStats = new ArrayList<>();
         HttpClient client = HttpClient.newHttpClient();
