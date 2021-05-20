@@ -33,4 +33,4 @@
 
 ### Support or Contact
 Aasif Raza
-contcat :aasifraza9123@gmail.com
+contact :aasifraza9123@gmail.com
