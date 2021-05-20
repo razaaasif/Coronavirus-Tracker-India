@@ -1,5 +1,7 @@
 ## Welcome to Coronavirus Tracker Web-Application Repository
 ![image](https://user-images.githubusercontent.com/50637795/119052729-a829ef00-b9e2-11eb-93ef-dc1e36e57c4f.png)
+![image](https://user-images.githubusercontent.com/50637795/119052912-ecb58a80-b9e2-11eb-99cb-e618c8d2ce91.png)
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
